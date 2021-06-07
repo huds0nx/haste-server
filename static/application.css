@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-	background: #002B36;
+	background: #1a1b26;
 	margin: 0;
 	font-family: sans-serif;
 	overflow-x: hidden;
@@ -14,9 +14,9 @@ body {
 /* textarea */
 
 textarea {
-	background: #002B36;
+	background: #1a1b26;
 	border: 0px;
-	color: #fff;
+	color: #c0caf5;
 	width: 100%;
 	height: 100%;
 	font-family: monospace;
@@ -29,13 +29,13 @@ textarea {
 }
 
 .logo a:hover svg path {
-	fill: #fff;
+	fill: #c0caf5;
 }
 
 /* the line numbers */
 
 #linenos {
-	color: #7d7d7d;
+	color: #565f89;
 	z-index: -1000;
 	font-size: 13px;
 	font-family: monospace;
@@ -70,7 +70,7 @@ textarea {
 
 button {
 	font-size: 14px;
-	color: #929EA4;
+	color: #9aa5ce;
 	background: transparent;
 	outline: none;
 	border: none;
@@ -79,7 +79,7 @@ button {
 }
 
 button.enabled {
-	color: #FFF;
+	color: #c0caf5;
 	cursor: pointer;
 }
 
@@ -90,8 +90,8 @@ button.enabled {
     left: 50%;
     margin-left: -46px;
     text-align: center;
-    background: #15191b;
-    color: #fff;
+    background: #24283b;
+    color: #c0caf5;
     padding: 8px;
     border-radius: 3px;
     font-size: 12px;
@@ -112,7 +112,7 @@ button.enabled {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #002B36;
+	background: #1a1b26;
 }
 
 .menu-actions {
@@ -129,13 +129,13 @@ button.enabled {
 }
 
 #messages li {
-	background: rgba(23,62,72,0.8);
+	background: #24283b;
 	margin: 0 auto;
 	list-style: none;
 }
 
 #messages li.error {
-	background: rgba(102,8,0,0.8);
+	background: #f7768e;
 }
 
 @media only screen and (max-width: 600px) {

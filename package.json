@@ -18,6 +18,8 @@
     "connect": "^3.7.0",
     "connect-ratelimit": "0.0.7",
     "connect-route": "0.1.5",
+    "jquery": "^3.6.0",
+    "nodemon": "2.0.7",
     "pg": "^8.0.0",
     "redis": "0.8.1",
     "redis-url": "0.1.0",
@@ -40,8 +42,13 @@
   "directories": {
     "lib": "./lib"
   },
+  "nodemonConfig": {
+    "ext": "js,html,css,md",
+    "ignore": "static/application.min.js",
+    "delay": "2"
+  },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "mocha --recursive"
   }
 }

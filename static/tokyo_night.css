@@ -1,0 +1,80 @@
+/* Color Palette based off of https://github.com/enkia/tokyo-night-vscode-theme#color-palette */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1a1b26;
+  color: #c0caf5;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #565f89;
+}
+
+/* Green */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #73daca;
+}
+
+/* Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #2ac3de;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #7aa2f7;
+}
+
+/* Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #e0af68;
+}
+
+/* Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #ff9e64;
+}
+
+/* Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #f7768e;
+}
+
+.hljs-formula {
+  background: #24283b;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
